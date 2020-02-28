@@ -1,0 +1,41 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+.container {
+    background-color: #f5f5f5;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Background image code from https://css-tricks.com/perfect-full-page-background-image/ */
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
